@@ -1,0 +1,164 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+#title {
+    background-color: #b9b9b9;
+}
+@media (max-width:990px) {
+    #title {
+        text-align: center;
+    }
+} 
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: #343a40;
+}
+.container-fluid {
+    padding: 3% 15%;
+}
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    letter-spacing: 5px;
+    color: #b8d3ed !important;
+}
+.nav-link {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 18px 0;
+}
+.b1 i {
+    margin: 0 5px 0 0;
+    font-size: 25px;
+}
+.navbar {
+    padding-bottom: 4.5rem;
+}
+#title h2 {
+    color: #343a40;
+}
+.btn {
+    margin: 5% 3% 5% 1%;
+}
+.title-img {
+    max-width: 100%;
+    transform: rotate(7deg);
+}
+@media (max-width:990px) {
+    .title-img {
+        transform: rotate(0);
+    }
+    #title h2 {
+        font-size: 32px;
+    }
+}
+#features {
+    padding: 100px 0;
+    text-align: center;
+}
+#features h3 {
+    font-size: 1.4rem;
+}
+#features p {
+    padding: 10px ;
+    font-size: 14px;
+    color: gray;
+}
+#features i {
+    margin-bottom: 2rem;
+    color: #343a40;
+}
+#features i:hover {
+    color:#b9b9b9;
+}
+#testimonials {
+    background-color:#b9b9b9 ;
+    text-align: center;
+    padding: 100px 0;
+}
+
+#testimonials img {
+    width: 150px;
+    border-radius: 50%;
+}
+#testimonials h2 {
+    color: #343a40;
+    margin: 0 70px 20px;
+    font-family: 'Montserrat-bold';
+    font-size: 3rem;
+    line-height: 4.5rem;
+}
+@media(max-width:992px) {
+    #testimonials h2 {
+        margin: 0 20px 50px;
+        font-family: inherit;
+        font-size: 20px;
+        line-height: 2;
+    }
+}
+#testimonials em {
+color: white;
+}
+#press {
+    background-color: #b9b9b9;
+    text-align: center;
+}
+#press img {
+    width: 15%;
+    margin: 1rem;
+}
+#pricing {
+    padding: 100px 50px;
+}
+#pricing .box {
+    padding: 3% 2% ;
+    text-align: center;
+}
+#pricing .title {
+    text-align: center;
+}
+#pricing  h2 {
+    font-size: 28px;
+}
+#pricing  p {
+    font-size: 13px;
+    color: gray;
+}
+#pricing .card {
+    height: 440px;
+}
+#pricing .card  p {
+    margin-top: 30px;
+}
+#pricing .card  p:not(:last-child) {
+    border-bottom: 1px solid #cecece;
+}
+#pricing .card  h2 {
+    font-size: 24px;       
+}
+#cta {
+    padding: 7% 15%;
+    background-color: #b9b9b9;
+    text-align: center;
+}
+#cta h3 {
+    font-size: 1.5rem;
+    color: #343a40;
+    margin-bottom: 30px;
+}
+#footer {
+    padding: 2.5% 15%;
+    text-align: center;
+}
+#footer i {
+    padding: 3% 2% ;
+}
+#footer .insta {
+    color: #d63384;
+}
+#footer p:last-child {
+    font-size: 12px;
+    margin: 0;
+}
